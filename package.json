@@ -1,0 +1,41 @@
+{
+  "name": "pwa-glb-model-viewer",
+  "version": "1.0.0",
+  "description": "An offline-first local GLB and glTF model inspector",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yapweijun1996/PWA-GLB-Model-Viewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/yapweijun1996/PWA-GLB-Model-Viewer/issues"
+  },
+  "homepage": "https://github.com/yapweijun1996/PWA-GLB-Model-Viewer#readme",
+  "dependencies": {
+    "fflate": "^0.8.3",
+    "gltf-validator": "^2.0.0-dev.3.10",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "prettier": "^3.10.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^4.1.12"
+  }
+}
